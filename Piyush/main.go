@@ -43,7 +43,7 @@ func getFolders(ctx context.Context, req *cloudresourcemanager.FoldersListCall, 
 
 /*
    Example command lines:
-       piyush -set -user="user:jaemszy424@gmail.com" -role="roles/resourcemanager.folderEditor" -folder="folders/345573146175" -org="organizations/27464139858"
+       piyush -set -user="user:test@gmail.com" -role="roles/resourcemanager.folderEditor" -folder="folders/345573146175" -org="organizations/27464139858"
        piyush -get -org="organizations/27464139858"
        piyush -projects
 */
