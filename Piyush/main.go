@@ -115,7 +115,7 @@ func main() {
 			for _, binding := range iamPolicy.Bindings {
 				fmt.Println("- members:")
 				for _, member := range binding.Members {
-					fmt.Println("  - user:" + member)
+					fmt.Println("  - " + member)
 				}
 				fmt.Println("  role: " + binding.Role)
 			}
